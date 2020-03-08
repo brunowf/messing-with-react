@@ -31,7 +31,8 @@ function card(props) {
     return (
       <div className="gridItem">
         <Card header={header}>
-          Content
+          {list.name}<br></br>
+          {list.quantity}
         </Card>
       </div>
     );
